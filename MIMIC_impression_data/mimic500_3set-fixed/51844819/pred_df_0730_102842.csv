@@ -1,0 +1,548 @@
+report,atelectasis_pred,atelectasis_text_output,atelectasis_whole_output,consolidation_pred,consolidation_text_output,consolidation_whole_output,effusion_pred,effusion_text_output,effusion_whole_output,fracture_pred,fracture_text_output,fracture_whole_output,lung opacity_pred,lung opacity_text_output,lung opacity_whole_output,pleural lesion_pred,pleural lesion_text_output,pleural lesion_whole_output,nodule_pred,nodule_text_output,nodule_whole_output,pneumothorax_pred,pneumothorax_text_output,pneumothorax_whole_output,pulmonary edema_pred,pulmonary edema_text_output,pulmonary edema_whole_output,widened mediastinal silhouette_pred,widened mediastinal silhouette_text_output,widened mediastinal silhouette_whole_output
+"1. Increased mild pulmonary vascular congestion from ___ with small right pleural effusion and right basilar atelectasis. Right basilar opacity may be combination of above, but underlying consolidation due to infection is not excluded. 2. Staple, suture material and scar in the left upper-to-mid lung.",75.0,"
+Yes, there is a direct mention of atelectasis (a collapse of an area of the lung) in the report. The sentence ""Right basilar opacity may be combination of above, but underlying consolidation due to infection is not excluded"" suggests that there is a possibility of atelectasis in the right basilar area.
+
+2. Now, let's give a brief and concise single top reason both for and against a current POSITIVE DIAGNOSIS of atelectasis (a collapse of an area of the lung):
+
+TOP REASON FOR: The report mentions the possibility of atelectasis in the right basilar area, which suggests a positive diagnosis.
+
+TOP REASON AGAINST: The report does not explicitly confirm the presence of atelectasis, and the possibility of underlying consolidation due to infection is mentioned, which could be an alternative explanation for the observed opacity.
+
+3. Based on the above, we can conclude that:
+
+There is a possibility of atelectasis in the right basilar area, but the report does not explicitly confirm its presence. Therefore, the probability of atelectasis present is greater than 50% but less than 100%.
+
+4. Finally, we can output the following sentence:
+
+""Probability of atelectasis present: 75%.""
+
+Please note that the probability is not exactly 50%, as there is a direct mention of atelectasis in the report, which warrants a positive diagnosis. However, the report does not explicitly confirm the presence of atelectasis, which is why the probability is less than 100%.</s>","<s> <|user|>
+### QUESTION: Is there atelectasis (a collapse of an area of the lung) directly mentioned in this report? 
+
+### INSTRUCTIONS: 
+1. Firstly, think whether there are any direct mentions of atelectasis (a collapse of an area of the lung) in the report. Remember that any uncertain, suggestive, or possible language about atelectasis (a collapse of an area of the lung) should also be treated as a direct mention.
+2. Then, if there IS direct mention, **you must carefully consider the context of which it is placed**: does it suggest a positive or negative diagnosis? Does it suggest that the condition is resolved or no longer present?
+3. Next, give a brief and concise single top reason both for and against a current POSITIVE DIAGNOSIS of atelectasis (a collapse of an area of the lung), carefully considering the assumptions below. Give these reasons headings 'TOP REASON FOR' and 'TOP REASON AGAINST'. Carefully consider any context or change in conditions.
+4. After this, give a final concise conclusion including a definitive answer to the question with a probability that atelectasis (a collapse of an area of the lung) is present, following the assumptions.
+5. Finally, output this sentence in this exact format (so that I can automatically parse your answer for your probability), inserting your probability: ""Probability of atelectasis present: <INSERT_YOUR_PROBABILITY>%."". Your probability must NOT be exactly 50%.
+
+### ASSUMPTIONS:
+* Assume that any severity of atelectasis (a collapse of an area of the lung) indicates that it is directly mentioned and your probability MUST be stricly greater than 50%.
+* If there is no direct mention of atelectasis (a collapse of an area of the lung), your probability MUST be strictly less than 50%.
+* Assume any direct mention of atelectasis (a collapse of an area of the lung) including uncertain, suggestive or possible language as a POSITIVE DIAGNOSIS, where your probability must be greater than 50%.
+* MOST IMPORTANT: Opacity, consolidation, pneumonia or any other disorders do NOT imply the presence or diagnosis of atelectasis. Only direct and explicit mention of atelectasis (a collapse of an area of the lung) (including uncertainty) warrants a POSITIVE DIAGNOSIS with a probability greater than 50%.
+* If the condition is resolved, then you can assume this to be a NEGATIVE DIAGNOSIS.
+
+### REPORT: 1. Increased mild pulmonary vascular congestion from ___ with small right pleural effusion and right basilar atelectasis. Right basilar opacity may be combination of above, but underlying consolidation due to infection is not excluded. 2. Staple, suture material and scar in the left upper-to-mid lung.
+
+<|assistant|>
+1. Firstly, let's think step-by-step if there's any direct mention of atelectasis (a collapse of an area of the lung) in the report, carefully considering the above assumptions:
+
+Yes, there is a direct mention of atelectasis (a collapse of an area of the lung) in the report. The sentence ""Right basilar opacity may be combination of above, but underlying consolidation due to infection is not excluded"" suggests that there is a possibility of atelectasis in the right basilar area.
+
+2. Now, let's give a brief and concise single top reason both for and against a current POSITIVE DIAGNOSIS of atelectasis (a collapse of an area of the lung):
+
+TOP REASON FOR: The report mentions the possibility of atelectasis in the right basilar area, which suggests a positive diagnosis.
+
+TOP REASON AGAINST: The report does not explicitly confirm the presence of atelectasis, and the possibility of underlying consolidation due to infection is mentioned, which could be an alternative explanation for the observed opacity.
+
+3. Based on the above, we can conclude that:
+
+There is a possibility of atelectasis in the right basilar area, but the report does not explicitly confirm its presence. Therefore, the probability of atelectasis present is greater than 50% but less than 100%.
+
+4. Finally, we can output the following sentence:
+
+""Probability of atelectasis present: 75%.""
+
+Please note that the probability is not exactly 50%, as there is a direct mention of atelectasis in the report, which warrants a positive diagnosis. However, the report does not explicitly confirm the presence of atelectasis, which is why the probability is less than 100%.</s>",75.0,"
+Yes, there is a direct mention of consolidation in the report. The sentence ""Right basilar opacity may be a combination of above, but underlying consolidation due to infection is not excluded"" suggests that consolidation is being considered as a possible diagnosis.
+
+2. Next, let's give a brief and concise single top reason both for and against a current POSITIVE DIAGNOSIS of consolidation:
+
+TOP REASON FOR: The report mentions ""underlying consolidation due to infection is not excluded."" This suggests that consolidation is being considered as a possible diagnosis, and it is not ruled out.
+
+TOP REASON AGAINST: There is no clear positive diagnosis of consolidation in the report. The language used is suggestive and uncertain, which does not warrant a definitive positive diagnosis.
+
+3. After this, let's give a final concise conclusion including a definitive answer to the question with a probability that consolidation is present, following the assumptions:
+
+Based on the report, there is a possibility of consolidation due to infection, but it is not definitively diagnosed. Therefore, the probability of consolidation being present is greater than 50% but less than 100%.
+
+4. Finally, let's output the sentence in the required format:
+
+""Probability of consolidation present: 75%.""
+
+Please note that the probability is not exactly 50%, as there is a direct mention of consolidation in the report, which warrants a probability greater than 50%. However, the language used is suggestive and uncertain, which does not warrant a definitive probability of 100%.</s>","<s> <|user|>
+### QUESTION: Is there consolidation directly mentioned in this report? 
+
+### INSTRUCTIONS: 
+1. Firstly, think whether there are any direct mentions of consolidation in the report. **Do NOT consider pneumonia, atelectasis or edema as a consolidation diagnosis**. Remember that any uncertain, suggestive, or possible language about consolidation should also be treated as a direct mention.
+2. Then, if there IS direct mention, **you must carefully consider the context of which it is placed**: does it suggest a positive or negative diagnosis? Does it suggest that the condition is resolved or no longer present?
+3. Next, give a brief and concise single top reason both for and against a current POSITIVE DIAGNOSIS of consolidation, carefully considering the assumptions below. Give these reasons headings 'TOP REASON FOR' and 'TOP REASON AGAINST'. Carefully consider any context or change in conditions.
+4. After this, give a final concise conclusion including a definitive answer to the question with a probability that consolidation is present, following the assumptions.
+5. Finally, output this sentence in this exact format (so that I can automatically parse your answer for your probability), inserting your probability: ""Probability of consolidation present: <INSERT_YOUR_PROBABILITY>%."". Your probability must NOT be exactly 50%.
+
+### ASSUMPTIONS:
+* Assume that any severity of consolidation indicates that it is directly mentioned and your probability MUST be stricly greater than 50%.
+* If there is no direct mention of consolidation, your probability MUST be strictly less than 50%.
+* Assume any direct mention of consolidation including uncertain, suggestive or possible language as a POSITIVE DIAGNOSIS, where your probability must be greater than 50%.
+* MOST IMPORTANT: Pneumonia, atelectasis, edema or any other disorders do NOT imply the presence or diagnosis of consolidation. Only direct and explicit mention of consolidation (including uncertainty) warrants a POSITIVE DIAGNOSIS with a probability greater than 50%.
+* If the condition is resolved, then you can assume this to be a NEGATIVE DIAGNOSIS.
+
+### REPORT: 1. Increased mild pulmonary vascular congestion from ___ with small right pleural effusion and right basilar atelectasis. Right basilar opacity may be combination of above, but underlying consolidation due to infection is not excluded. 2. Staple, suture material and scar in the left upper-to-mid lung.
+
+<|assistant|>
+1. Firstly, let's think step-by-step if there's any direct mention of consolidation in the report, carefully considering the above assumptions:
+
+Yes, there is a direct mention of consolidation in the report. The sentence ""Right basilar opacity may be a combination of above, but underlying consolidation due to infection is not excluded"" suggests that consolidation is being considered as a possible diagnosis.
+
+2. Next, let's give a brief and concise single top reason both for and against a current POSITIVE DIAGNOSIS of consolidation:
+
+TOP REASON FOR: The report mentions ""underlying consolidation due to infection is not excluded."" This suggests that consolidation is being considered as a possible diagnosis, and it is not ruled out.
+
+TOP REASON AGAINST: There is no clear positive diagnosis of consolidation in the report. The language used is suggestive and uncertain, which does not warrant a definitive positive diagnosis.
+
+3. After this, let's give a final concise conclusion including a definitive answer to the question with a probability that consolidation is present, following the assumptions:
+
+Based on the report, there is a possibility of consolidation due to infection, but it is not definitively diagnosed. Therefore, the probability of consolidation being present is greater than 50% but less than 100%.
+
+4. Finally, let's output the sentence in the required format:
+
+""Probability of consolidation present: 75%.""
+
+Please note that the probability is not exactly 50%, as there is a direct mention of consolidation in the report, which warrants a probability greater than 50%. However, the language used is suggestive and uncertain, which does not warrant a definitive probability of 100%.</s>",90.0,"
+Yes, there is a direct mention of effusion in the report. The report states ""small right pleural effusion"".
+
+2. Next, let's consider the context of the direct mention:
+
+The report mentions a ""small right pleural effusion"" in the context of ""Increased mild pulmonary vascular congestion from ___ with small right pleural effusion and right basilar atelectasis."" This suggests a positive diagnosis of effusion.
+
+3. Now, let's give a brief and concise single top reason both for and against a current POSITIVE DIAGNOSIS of effusion (including fluid build-up/overload or hydropneumothorax between the lung and the chest wall):
+
+TOP REASON FOR: The report explicitly mentions ""small right pleural effusion"", which is a direct mention of effusion.
+
+TOP REASON AGAINST: There is no reason against a positive diagnosis of effusion in this report.
+
+4. Based on the above, let's give a final concise conclusion including a definitive answer to the question with a probability that effusion (including fluid build-up/overload or hydropneumothorax between the lung and the chest wall) is present:
+
+There is a direct mention of effusion in the report, and the context suggests a positive diagnosis. Therefore, the probability of an effusion present is 90%.
+
+5. Finally, let's output the sentence in the required format:
+
+""Probability of an effusion present: 90%.""</s>","<s> <|user|>
+### QUESTION: Is there effusion (including fluid build-up/overload or hydropneumothorax between the lung and the chest wall) directly mentioned in this report? 
+
+### INSTRUCTIONS: 
+1. Firstly, think whether there are any direct mentions of effusion (including fluid build-up/overload or hydropneumothorax between the lung and the chest wall) in the report. **Do NOT consider an edema, pneumothorax or emphysema as an effusion diagnosis.. Remember that any uncertain, suggestive, or possible language about effusion (including fluid build-up/overload or hydropneumothorax between the lung and the chest wall) should also be treated as a direct mention.
+2. Then, if there IS direct mention, **you must carefully consider the context of which it is placed**: does it suggest a positive or negative diagnosis? Does it suggest that the condition is resolved or no longer present?
+3. Next, give a brief and concise single top reason both for and against a current POSITIVE DIAGNOSIS of effusion (including fluid build-up/overload or hydropneumothorax between the lung and the chest wall), carefully considering the assumptions below. Give these reasons headings 'TOP REASON FOR' and 'TOP REASON AGAINST'. Carefully consider any context or change in conditions.
+4. After this, give a final concise conclusion including a definitive answer to the question with a probability that effusion (including fluid build-up/overload or hydropneumothorax between the lung and the chest wall) is present, following the assumptions.
+5. Finally, output this sentence in this exact format (so that I can automatically parse your answer for your probability), inserting your probability: ""Probability of an effusion present: <INSERT_YOUR_PROBABILITY>%."". Your probability must NOT be exactly 50%.
+
+### ASSUMPTIONS:
+* Assume that any severity of effusion (including fluid build-up/overload or hydropneumothorax between the lung and the chest wall) indicates that it is directly mentioned and your probability MUST be stricly greater than 50%.
+* If there is no direct mention of effusion (including fluid build-up/overload or hydropneumothorax between the lung and the chest wall), your probability MUST be strictly less than 50%.
+* Assume any direct mention of effusion (including fluid build-up/overload or hydropneumothorax between the lung and the chest wall) including uncertain, suggestive or possible language as a POSITIVE DIAGNOSIS, where your probability must be greater than 50%.
+* MOST IMPORTANT: Edema, pneumothorax, emphysema or any other disorders do NOT imply the presence or diagnosis of effusion. Only direct and explicit mention of effusion (including fluid build-up/overload or hydropneumothorax between the lung and the chest wall) (including uncertainty) warrants a POSITIVE DIAGNOSIS with a probability greater than 50%.
+* If the condition is resolved, then you can assume this to be a NEGATIVE DIAGNOSIS.
+
+### REPORT: 1. Increased mild pulmonary vascular congestion from ___ with small right pleural effusion and right basilar atelectasis. Right basilar opacity may be combination of above, but underlying consolidation due to infection is not excluded. 2. Staple, suture material and scar in the left upper-to-mid lung.
+
+<|assistant|>
+1. Firstly, let's think step-by-step if there's any direct mention of effusion (including fluid build-up/overload or hydropneumothorax between the lung and the chest wall) in the report, carefully considering the above assumptions:
+
+Yes, there is a direct mention of effusion in the report. The report states ""small right pleural effusion"".
+
+2. Next, let's consider the context of the direct mention:
+
+The report mentions a ""small right pleural effusion"" in the context of ""Increased mild pulmonary vascular congestion from ___ with small right pleural effusion and right basilar atelectasis."" This suggests a positive diagnosis of effusion.
+
+3. Now, let's give a brief and concise single top reason both for and against a current POSITIVE DIAGNOSIS of effusion (including fluid build-up/overload or hydropneumothorax between the lung and the chest wall):
+
+TOP REASON FOR: The report explicitly mentions ""small right pleural effusion"", which is a direct mention of effusion.
+
+TOP REASON AGAINST: There is no reason against a positive diagnosis of effusion in this report.
+
+4. Based on the above, let's give a final concise conclusion including a definitive answer to the question with a probability that effusion (including fluid build-up/overload or hydropneumothorax between the lung and the chest wall) is present:
+
+There is a direct mention of effusion in the report, and the context suggests a positive diagnosis. Therefore, the probability of an effusion present is 90%.
+
+5. Finally, let's output the sentence in the required format:
+
+""Probability of an effusion present: 90%.""</s>",20.0,"
+   - The report mentions ""Staple, suture material and scar in the left upper-to-mid lung."" This could be interpreted as a mention of a healed fracture, but it is not explicitly stated as a bone fracture.
+
+2. Next, let's give a brief and concise single top reason both for and against a current POSITIVE DIAGNOSIS of bone fracture:
+
+   - TOP REASON FOR: The report mentions ""Staple, suture material and scar in the left upper-to-mid lung."" This could be interpreted as a mention of a healed fracture, but it is not explicitly stated as a bone fracture.
+
+   - TOP REASON AGAINST: There is no direct mention of bone fracture in the report.
+
+3. After this, let's give a final concise conclusion including a definitive answer to the question with a probability that bone fracture is present, following the assumptions:
+
+   - The report does not explicitly mention bone fracture, and the mention of ""Staple, suture material and scar in the left upper-to-mid lung"" could be interpreted as a healed fracture, but it is not a direct mention of bone fracture. Therefore, the probability of a bone fracture being present is less than 50%.
+
+4. Finally, let's output the sentence in the required format:
+
+   - ""Probability of a bone fracture present: 20%.""
+
+Please note that the probability of 20% is based on the assumption that the mention of ""Staple, suture material and scar in the left upper-to-mid lung"" could be interpreted as a healed fracture, but it is not a direct mention of bone fracture. The actual probability may vary depending on the specific context and the reader's interpretation.</s>","<s> <|user|>
+### QUESTION: Is there bone fracture directly mentioned in this report? 
+
+### INSTRUCTIONS: 
+1. Firstly, think whether there are any direct mentions of bone fracture in the report. **Do NOT consider the fractures of wires or any support devices as a bone fracture diagnosis**. Remember that any uncertain, suggestive, or possible language about bone fracture should also be treated as a direct mention.
+2. Then, if there IS direct mention, **you must carefully consider the context of which it is placed**: does it suggest a positive or negative diagnosis? Does it suggest that the condition is resolved or no longer present?
+3. Next, give a brief and concise single top reason both for and against a current POSITIVE DIAGNOSIS of bone fracture, carefully considering the assumptions below. Give these reasons headings 'TOP REASON FOR' and 'TOP REASON AGAINST'. Carefully consider any context or change in conditions.
+4. After this, give a final concise conclusion including a definitive answer to the question with a probability that bone fracture is present, following the assumptions.
+5. Finally, output this sentence in this exact format (so that I can automatically parse your answer for your probability), inserting your probability: ""Probability of a bone fracture present: <INSERT_YOUR_PROBABILITY>%."". Your probability must NOT be exactly 50%.
+
+### ASSUMPTIONS:
+* Assume that any severity of bone fracture indicates that it is directly mentioned and your probability MUST be stricly greater than 50%.
+* If there is no direct mention of bone fracture, your probability MUST be strictly less than 50%.
+* Assume any direct mention of bone fracture including uncertain, suggestive or possible language as a POSITIVE DIAGNOSIS, where your probability must be greater than 50%.
+* MOST IMPORTANT: Only direct and explicit mention of bone fracture (including uncertainty) warrants a POSITIVE DIAGNOSIS with a probability greater than 50%.
+* If the condition is resolved, then you can assume this to be a NEGATIVE DIAGNOSIS.
+
+### REPORT: 1. Increased mild pulmonary vascular congestion from ___ with small right pleural effusion and right basilar atelectasis. Right basilar opacity may be combination of above, but underlying consolidation due to infection is not excluded. 2. Staple, suture material and scar in the left upper-to-mid lung.
+
+<|assistant|>
+1. Firstly, let's think step-by-step if there's any direct mention of bone fracture in the report, carefully considering the above assumptions:
+
+   - The report mentions ""Staple, suture material and scar in the left upper-to-mid lung."" This could be interpreted as a mention of a healed fracture, but it is not explicitly stated as a bone fracture.
+
+2. Next, let's give a brief and concise single top reason both for and against a current POSITIVE DIAGNOSIS of bone fracture:
+
+   - TOP REASON FOR: The report mentions ""Staple, suture material and scar in the left upper-to-mid lung."" This could be interpreted as a mention of a healed fracture, but it is not explicitly stated as a bone fracture.
+
+   - TOP REASON AGAINST: There is no direct mention of bone fracture in the report.
+
+3. After this, let's give a final concise conclusion including a definitive answer to the question with a probability that bone fracture is present, following the assumptions:
+
+   - The report does not explicitly mention bone fracture, and the mention of ""Staple, suture material and scar in the left upper-to-mid lung"" could be interpreted as a healed fracture, but it is not a direct mention of bone fracture. Therefore, the probability of a bone fracture being present is less than 50%.
+
+4. Finally, let's output the sentence in the required format:
+
+   - ""Probability of a bone fracture present: 20%.""
+
+Please note that the probability of 20% is based on the assumption that the mention of ""Staple, suture material and scar in the left upper-to-mid lung"" could be interpreted as a healed fracture, but it is not a direct mention of bone fracture. The actual probability may vary depending on the specific context and the reader's interpretation.</s>",90.0,"
+Yes, there is a direct mention of lung opacity in the report. The phrase ""Right basilar opacity may be a combination of above, but underlying consolidation due to infection is not excluded"" directly mentions lung opacity.
+
+2. Now, let's consider the context of the direct mention:
+
+The context suggests a positive diagnosis of lung opacity. The report states that there is a right basilar opacity, which may be a combination of other conditions, but underlying consolidation due to infection is not excluded. This indicates that there is a possibility of lung opacity being present.
+
+3. Next, let's give a brief and concise single top reason both for and against a current POSITIVE DIAGNOSIS of lung opacity (including increased density or fibrosis in the lungs only):
+
+TOP REASON FOR: The report directly mentions ""Right basilar opacity,"" which suggests the presence of lung opacity.
+
+TOP REASON AGAINST: There is no clear indication that the lung opacity is resolved or no longer present.
+
+4. Based on the above, we can conclude that:
+
+There is a positive diagnosis of lung opacity (including increased density or fibrosis in the lungs only) present in the report.
+
+5. Finally, let's output the probability:
+
+""Probability of lung opacity present: 90%.""
+
+The probability is greater than 50% because there is a direct mention of lung opacity in the report, and the context suggests a positive diagnosis. However, the probability is less than 100% because there is no clear indication that the lung opacity is resolved or no longer present.</s>","<s> <|user|>
+### QUESTION: Is there lung opacity (including increased density or fibrosis in the lungs only) directly mentioned in this report? 
+
+### INSTRUCTIONS: 
+1. Firstly, think whether there are any direct mentions of lung opacity (including increased density or fibrosis in the lungs only) in the report. **Only consider opacities in the lung only! Do NOT consider pneumonia, consolidation, atelectasis, edema, masses, emphysema or scarring as a lung opacity diagnosis**. Remember that any uncertain, suggestive, or possible language about lung opacity (including increased density or fibrosis in the lungs only) should also be treated as a direct mention.
+2. Then, if there IS direct mention, **you must carefully consider the context of which it is placed**: does it suggest a positive or negative diagnosis? Does it suggest that the condition is resolved or no longer present?
+3. Next, give a brief and concise single top reason both for and against a current POSITIVE DIAGNOSIS of lung opacity (including increased density or fibrosis in the lungs only), carefully considering the assumptions below. Give these reasons headings 'TOP REASON FOR' and 'TOP REASON AGAINST'. Carefully consider any context or change in conditions.
+4. After this, give a final concise conclusion including a definitive answer to the question with a probability that lung opacity (including increased density or fibrosis in the lungs only) is present, following the assumptions.
+5. Finally, output this sentence in this exact format (so that I can automatically parse your answer for your probability), inserting your probability: ""Probability of lung opacity present: <INSERT_YOUR_PROBABILITY>%."". Your probability must NOT be exactly 50%.
+
+### ASSUMPTIONS:
+* Assume that any severity of lung opacity (including increased density or fibrosis in the lungs only) indicates that it is directly mentioned and your probability MUST be stricly greater than 50%.
+* If there is no direct mention of lung opacity (including increased density or fibrosis in the lungs only), your probability MUST be strictly less than 50%.
+* Assume any direct mention of lung opacity (including increased density or fibrosis in the lungs only) including uncertain, suggestive or possible language as a POSITIVE DIAGNOSIS, where your probability must be greater than 50%.
+* MOST IMPORTANT: Pneumonia, consolidation, atelectasis, edema, masses, emphysema, scarring or any other disorders do NOT imply the presence of lung opacity (increased density). Only direct mention of words relating to opacity or density. Only direct and explicit mention of lung opacity (including increased density or fibrosis in the lungs only) (including uncertainty) warrants a POSITIVE DIAGNOSIS with a probability greater than 50%.
+* If the condition is resolved, then you can assume this to be a NEGATIVE DIAGNOSIS.
+
+### REPORT: 1. Increased mild pulmonary vascular congestion from ___ with small right pleural effusion and right basilar atelectasis. Right basilar opacity may be combination of above, but underlying consolidation due to infection is not excluded. 2. Staple, suture material and scar in the left upper-to-mid lung.
+
+<|assistant|>
+1. Firstly, let's think step-by-step if there's any direct mention of lung opacity (including increased density or fibrosis in the lungs only) in the report, carefully considering the above assumptions:
+
+Yes, there is a direct mention of lung opacity in the report. The phrase ""Right basilar opacity may be a combination of above, but underlying consolidation due to infection is not excluded"" directly mentions lung opacity.
+
+2. Now, let's consider the context of the direct mention:
+
+The context suggests a positive diagnosis of lung opacity. The report states that there is a right basilar opacity, which may be a combination of other conditions, but underlying consolidation due to infection is not excluded. This indicates that there is a possibility of lung opacity being present.
+
+3. Next, let's give a brief and concise single top reason both for and against a current POSITIVE DIAGNOSIS of lung opacity (including increased density or fibrosis in the lungs only):
+
+TOP REASON FOR: The report directly mentions ""Right basilar opacity,"" which suggests the presence of lung opacity.
+
+TOP REASON AGAINST: There is no clear indication that the lung opacity is resolved or no longer present.
+
+4. Based on the above, we can conclude that:
+
+There is a positive diagnosis of lung opacity (including increased density or fibrosis in the lungs only) present in the report.
+
+5. Finally, let's output the probability:
+
+""Probability of lung opacity present: 90%.""
+
+The probability is greater than 50% because there is a direct mention of lung opacity in the report, and the context suggests a positive diagnosis. However, the probability is less than 100% because there is no clear indication that the lung opacity is resolved or no longer present.</s>",0.0,"
+The report mentions ""small right pleural effusion"". However, as per the assumptions, we cannot consider pleural effusion as a pleural lesion diagnosis. Therefore, there is no direct mention of a pleural lesion in this report.
+
+2. Since there is no direct mention of a pleural lesion, we cannot provide a top reason for a positive diagnosis. However, we can provide a top reason against a positive diagnosis:
+
+TOP REASON AGAINST: The report does not mention any pleural lesion (such as pleural thickening or blunting of the costophrenic angle) directly.
+
+3. Based on the above analysis, we can conclude that:
+
+Probability of a pleural lesion present: <INSERT_YOUR_PROBABILITY>%
+
+In this case, since there is no direct mention of a pleural lesion, the probability of a pleural lesion present is less than 50%.
+
+4. Final output:
+
+Probability of a pleural lesion present: 0%</s>","<s> <|user|>
+### QUESTION: Is there a pleural lesion (such as pleural thickening or blunting of the costophrenic angle) directly mentioned in this report? 
+
+### INSTRUCTIONS: 
+1. Firstly, think whether there are any direct mentions of a pleural lesion (such as pleural thickening or blunting of the costophrenic angle) in the report. **Do NOT consider pleural effusion, pleural scarring, pleural lines or asbestos-related diseases as a pleural lesion diagnosis**. Remember that any uncertain, suggestive, or possible language about a pleural lesion (such as pleural thickening or blunting of the costophrenic angle) should also be treated as a direct mention.
+2. Then, if there IS direct mention, **you must carefully consider the context of which it is placed**: does it suggest a positive or negative diagnosis? Does it suggest that the condition is resolved or no longer present?
+3. Next, give a brief and concise single top reason both for and against a current POSITIVE DIAGNOSIS of a pleural lesion (such as pleural thickening or blunting of the costophrenic angle), carefully considering the assumptions below. Give these reasons headings 'TOP REASON FOR' and 'TOP REASON AGAINST'. Carefully consider any context or change in conditions.
+4. After this, give a final concise conclusion including a definitive answer to the question with a probability that a pleural lesion (such as pleural thickening or blunting of the costophrenic angle) is present, following the assumptions.
+5. Finally, output this sentence in this exact format (so that I can automatically parse your answer for your probability), inserting your probability: ""Probability of a pleural lesion present: <INSERT_YOUR_PROBABILITY>%."". Your probability must NOT be exactly 50%.
+
+### ASSUMPTIONS:
+* Assume that any severity of a pleural lesion (such as pleural thickening or blunting of the costophrenic angle) indicates that it is directly mentioned and your probability MUST be stricly greater than 50%.
+* If there is no direct mention of a pleural lesion (such as pleural thickening or blunting of the costophrenic angle), your probability MUST be strictly less than 50%.
+* Assume any direct mention of a pleural lesion (such as pleural thickening or blunting of the costophrenic angle) including uncertain, suggestive or possible language as a POSITIVE DIAGNOSIS, where your probability must be greater than 50%.
+* MOST IMPORTANT: Pleural effusion, pleural scarring, pleural lines, asbestos-related diseases or any other disorders do NOT imply the presence or diagnosis of a pleural lesion. Only direct and explicit mention of a pleural lesion (such as pleural thickening or blunting of the costophrenic angle) (including uncertainty) warrants a POSITIVE DIAGNOSIS with a probability greater than 50%.
+* If the condition is resolved, then you can assume this to be a NEGATIVE DIAGNOSIS.
+
+### REPORT: 1. Increased mild pulmonary vascular congestion from ___ with small right pleural effusion and right basilar atelectasis. Right basilar opacity may be combination of above, but underlying consolidation due to infection is not excluded. 2. Staple, suture material and scar in the left upper-to-mid lung.
+
+<|assistant|>
+1. Firstly, let's think step-by-step if there's any direct mention of a pleural lesion (such as pleural thickening or blunting of the costophrenic angle) in the report, carefully considering the above assumptions:
+
+The report mentions ""small right pleural effusion"". However, as per the assumptions, we cannot consider pleural effusion as a pleural lesion diagnosis. Therefore, there is no direct mention of a pleural lesion in this report.
+
+2. Since there is no direct mention of a pleural lesion, we cannot provide a top reason for a positive diagnosis. However, we can provide a top reason against a positive diagnosis:
+
+TOP REASON AGAINST: The report does not mention any pleural lesion (such as pleural thickening or blunting of the costophrenic angle) directly.
+
+3. Based on the above analysis, we can conclude that:
+
+Probability of a pleural lesion present: <INSERT_YOUR_PROBABILITY>%
+
+In this case, since there is no direct mention of a pleural lesion, the probability of a pleural lesion present is less than 50%.
+
+4. Final output:
+
+Probability of a pleural lesion present: 0%</s>",0.0,"
+There is no direct mention of a nodule (including masses, granulomas and metastatic disease) in the report.
+
+2. Next, let's give a brief and concise single top reason both for and against a current POSITIVE DIAGNOSIS of a nodule (including masses, granulomas and metastatic disease), carefully considering the assumptions:
+
+TOP REASON FOR: There is no direct mention of a nodule (including masses, granulomas and metastatic disease) in the report.
+
+TOP REASON AGAINST: There is no direct mention of a nodule (including masses, granulomas and metastatic disease) in the report.
+
+3. After this, let's give a final concise conclusion including a definitive answer to the question with a probability that a nodule (including masses, granulomas and metastatic disease) is present, following the assumptions:
+
+There is no direct mention of a nodule (including masses, granulomas and metastatic disease) in the report. Therefore, the probability of a nodule present is less than 50%.
+
+4. Finally, let's output the sentence in the required format:
+
+""Probability of a nodule present: <INSERT_YOUR_PROBABILITY>%.""
+
+""Probability of a nodule present: 0%.""</s>","<s> <|user|>
+### QUESTION: Is there a nodule (including masses, granulomas and metastatic disease) directly mentioned in this report? 
+
+### INSTRUCTIONS: 
+1. Firstly, think whether there are any direct mentions of a nodule (including masses, granulomas and metastatic disease) in the report**Do NOT consider sarcoidosis, lung opacities or densities as a nodule diagnosis**. Remember that any uncertain, suggestive, or possible language about a nodule (including masses, granulomas and metastatic disease) should also be treated as a direct mention.
+2. Then, if there IS direct mention, **you must carefully consider the context of which it is placed**: does it suggest a positive or negative diagnosis? Does it suggest that the condition is resolved or no longer present?
+3. Next, give a brief and concise single top reason both for and against a current POSITIVE DIAGNOSIS of a nodule (including masses, granulomas and metastatic disease), carefully considering the assumptions below. Give these reasons headings 'TOP REASON FOR' and 'TOP REASON AGAINST'. Carefully consider any context or change in conditions.
+4. After this, give a final concise conclusion including a definitive answer to the question with a probability that a nodule (including masses, granulomas and metastatic disease) is present, following the assumptions.
+5. Finally, output this sentence in this exact format (so that I can automatically parse your answer for your probability), inserting your probability: ""Probability of a nodule present: <INSERT_YOUR_PROBABILITY>%."". Your probability must NOT be exactly 50%.
+
+### ASSUMPTIONS:
+* Assume that any severity of a nodule (including masses, granulomas and metastatic disease) indicates that it is directly mentioned and your probability MUST be stricly greater than 50%.
+* If there is no direct mention of a nodule (including masses, granulomas and metastatic disease), your probability MUST be strictly less than 50%.
+* Assume any direct mention of a nodule (including masses, granulomas and metastatic disease) including uncertain, suggestive or possible language as a POSITIVE DIAGNOSIS, where your probability must be greater than 50%.
+* MOST IMPORTANT:Sarcoidosis, opacities, densities or any other disorders do NOT imply the presence or diagnosis of a nodule. Only direct and explicit mention of a nodule (including masses, granulomas and metastatic disease) (including uncertainty) warrants a POSITIVE DIAGNOSIS with a probability greater than 50%.
+* If the condition is resolved, then you can assume this to be a NEGATIVE DIAGNOSIS.
+
+### REPORT: 1. Increased mild pulmonary vascular congestion from ___ with small right pleural effusion and right basilar atelectasis. Right basilar opacity may be combination of above, but underlying consolidation due to infection is not excluded. 2. Staple, suture material and scar in the left upper-to-mid lung.
+
+<|assistant|>
+1. Firstly, let's think step-by-step if there's any direct mention of a nodule (including masses, granulomas and metastatic disease) in the report, carefully considering the above assumptions:
+
+There is no direct mention of a nodule (including masses, granulomas and metastatic disease) in the report.
+
+2. Next, let's give a brief and concise single top reason both for and against a current POSITIVE DIAGNOSIS of a nodule (including masses, granulomas and metastatic disease), carefully considering the assumptions:
+
+TOP REASON FOR: There is no direct mention of a nodule (including masses, granulomas and metastatic disease) in the report.
+
+TOP REASON AGAINST: There is no direct mention of a nodule (including masses, granulomas and metastatic disease) in the report.
+
+3. After this, let's give a final concise conclusion including a definitive answer to the question with a probability that a nodule (including masses, granulomas and metastatic disease) is present, following the assumptions:
+
+There is no direct mention of a nodule (including masses, granulomas and metastatic disease) in the report. Therefore, the probability of a nodule present is less than 50%.
+
+4. Finally, let's output the sentence in the required format:
+
+""Probability of a nodule present: <INSERT_YOUR_PROBABILITY>%.""
+
+""Probability of a nodule present: 0%.""</s>",0.0,"
+The report does not directly mention pneumothorax.
+
+2. Next, let's give a brief and concise single top reason both for and against a current POSITIVE DIAGNOSIS of pneumothorax, carefully considering the assumptions:
+
+TOP REASON FOR:
+There is no direct mention of pneumothorax in the report.
+
+TOP REASON AGAINST:
+There is no direct mention of pneumothorax in the report.
+
+3. After this, let's give a final concise conclusion including a definitive answer to the question with a probability that pneumothorax is present, following the assumptions:
+
+Since there is no direct mention of pneumothorax in the report, we cannot assume a positive diagnosis.
+
+4. Finally, let's output the sentence in the required format:
+
+""Probability of pneumothorax present: 0%.""
+
+The probability of pneumothorax being present is 0%, as there is no direct mention of pneumothorax in the report.</s>","<s> <|user|>
+### QUESTION: Is there pneumothorax directly mentioned in this report? 
+
+### INSTRUCTIONS: 
+1. Firstly, think whether there are any direct mentions of pneumothorax in the report. Remember that any uncertain, suggestive, or possible language about pneumothorax should also be treated as a direct mention.
+2. Then, if there IS direct mention, **you must carefully consider the context of which it is placed**: does it suggest a positive or negative diagnosis? Does it suggest that the condition is resolved or no longer present?
+3. Next, give a brief and concise single top reason both for and against a current POSITIVE DIAGNOSIS of pneumothorax, carefully considering the assumptions below. Give these reasons headings 'TOP REASON FOR' and 'TOP REASON AGAINST'. Carefully consider any context or change in conditions.
+4. After this, give a final concise conclusion including a definitive answer to the question with a probability that pneumothorax is present, following the assumptions.
+5. Finally, output this sentence in this exact format (so that I can automatically parse your answer for your probability), inserting your probability: ""Probability of pneumothorax present: <INSERT_YOUR_PROBABILITY>%."". Your probability must NOT be exactly 50%.
+
+### ASSUMPTIONS:
+* Assume that any severity of pneumothorax indicates that it is directly mentioned and your probability MUST be stricly greater than 50%.
+* If there is no direct mention of pneumothorax, your probability MUST be strictly less than 50%.
+* Assume any direct mention of pneumothorax including uncertain, suggestive or possible language as a POSITIVE DIAGNOSIS, where your probability must be greater than 50%.
+* MOST IMPORTANT: Only direct and explicit mention of pneumothorax (including uncertainty) warrants a POSITIVE DIAGNOSIS with a probability greater than 50%.
+* If the condition is resolved, then you can assume this to be a NEGATIVE DIAGNOSIS.
+
+### REPORT: 1. Increased mild pulmonary vascular congestion from ___ with small right pleural effusion and right basilar atelectasis. Right basilar opacity may be combination of above, but underlying consolidation due to infection is not excluded. 2. Staple, suture material and scar in the left upper-to-mid lung.
+
+<|assistant|>
+1. Firstly, let's think step-by-step if there's any direct mention of pneumothorax in the report, carefully considering the above assumptions:
+
+The report does not directly mention pneumothorax.
+
+2. Next, let's give a brief and concise single top reason both for and against a current POSITIVE DIAGNOSIS of pneumothorax, carefully considering the assumptions:
+
+TOP REASON FOR:
+There is no direct mention of pneumothorax in the report.
+
+TOP REASON AGAINST:
+There is no direct mention of pneumothorax in the report.
+
+3. After this, let's give a final concise conclusion including a definitive answer to the question with a probability that pneumothorax is present, following the assumptions:
+
+Since there is no direct mention of pneumothorax in the report, we cannot assume a positive diagnosis.
+
+4. Finally, let's output the sentence in the required format:
+
+""Probability of pneumothorax present: 0%.""
+
+The probability of pneumothorax being present is 0%, as there is no direct mention of pneumothorax in the report.</s>",90.0,"
+   - The report mentions ""increased mild pulmonary vascular congestion"" which is a direct mention of vascular congestion.
+
+2. Next, let's give a brief and concise single top reason both for and against a current POSITIVE DIAGNOSIS of edema (including vascular congestion):
+
+   - TOP REASON FOR: The report explicitly mentions ""increased mild pulmonary vascular congestion"", which is a direct mention of vascular congestion.
+
+   - TOP REASON AGAINST: There is no reason against a positive diagnosis of edema (including vascular congestion) in this report.
+
+3. After this, let's give a final concise conclusion including a definitive answer to the question with a probability that edema (including vascular congestion) is present, following the assumptions:
+
+   - The report directly mentions ""increased mild pulmonary vascular congestion"", which is a positive diagnosis of vascular congestion.
+
+   - Probability of an edema present: 90%
+
+""Probability of an edema present: 90%.""</s>","<s> <|user|>
+### QUESTION: Is there edema (including vascular congestion) directly mentioned in this report? 
+
+### INSTRUCTIONS: 
+1. Firstly, think whether there are any direct mentions of edema (including vascular congestion) in the report. **Do NOT consider a pulmonary effusion as a pulmonary edema diagnosis**. Remember that any uncertain, suggestive, or possible language about edema (including vascular congestion) should also be treated as a direct mention.
+2. Then, if there IS direct mention, **you must carefully consider the context of which it is placed**: does it suggest a positive or negative diagnosis? Does it suggest that the condition is resolved or no longer present?
+3. Next, give a brief and concise single top reason both for and against a current POSITIVE DIAGNOSIS of edema (including vascular congestion), carefully considering the assumptions below. Give these reasons headings 'TOP REASON FOR' and 'TOP REASON AGAINST'. Carefully consider any context or change in conditions.
+4. After this, give a final concise conclusion including a definitive answer to the question with a probability that edema (including vascular congestion) is present, following the assumptions.
+5. Finally, output this sentence in this exact format (so that I can automatically parse your answer for your probability), inserting your probability: ""Probability of an edema present: <INSERT_YOUR_PROBABILITY>%."". Your probability must NOT be exactly 50%.
+
+### ASSUMPTIONS:
+* Assume that any severity of edema (including vascular congestion) indicates that it is directly mentioned and your probability MUST be stricly greater than 50%.
+* If there is no direct mention of edema (including vascular congestion), your probability MUST be strictly less than 50%.
+* Assume any direct mention of edema (including vascular congestion) including uncertain, suggestive or possible language as a POSITIVE DIAGNOSIS, where your probability must be greater than 50%.
+* MOST IMPORTANT: Pleural effusion or any other disorders do NOT imply the presence or diagnosis of a pulmonary edema. Only direct and explicit mention of edema (including vascular congestion) (including uncertainty) warrants a POSITIVE DIAGNOSIS with a probability greater than 50%.
+* If the condition is resolved, then you can assume this to be a NEGATIVE DIAGNOSIS.
+
+### REPORT: 1. Increased mild pulmonary vascular congestion from ___ with small right pleural effusion and right basilar atelectasis. Right basilar opacity may be combination of above, but underlying consolidation due to infection is not excluded. 2. Staple, suture material and scar in the left upper-to-mid lung.
+
+<|assistant|>
+1. Firstly, let's think step-by-step if there's any direct mention of edema (including vascular congestion) in the report, carefully considering the above assumptions:
+
+   - The report mentions ""increased mild pulmonary vascular congestion"" which is a direct mention of vascular congestion.
+
+2. Next, let's give a brief and concise single top reason both for and against a current POSITIVE DIAGNOSIS of edema (including vascular congestion):
+
+   - TOP REASON FOR: The report explicitly mentions ""increased mild pulmonary vascular congestion"", which is a direct mention of vascular congestion.
+
+   - TOP REASON AGAINST: There is no reason against a positive diagnosis of edema (including vascular congestion) in this report.
+
+3. After this, let's give a final concise conclusion including a definitive answer to the question with a probability that edema (including vascular congestion) is present, following the assumptions:
+
+   - The report directly mentions ""increased mild pulmonary vascular congestion"", which is a positive diagnosis of vascular congestion.
+
+   - Probability of an edema present: 90%
+
+""Probability of an edema present: 90%.""</s>",0.0,"
+There is no direct mention of widened mediastinal silhouette (including any mentions of cardiomegaly or an enlarged cardiomediastinum) in the report.
+
+2. Since there is no direct mention of widened mediastinal silhouette (including any mentions of cardiomegaly or an enlarged cardiomediastinum), we can assume that it is not present.
+
+TOP REASON FOR: There is no direct mention of widened mediastinal silhouette (including any mentions of cardiomegaly or an enlarged cardiomediastinum) in the report.
+
+TOP REASON AGAINST: There is no direct mention of widened mediastinal silhouette (including any mentions of cardiomegaly or an enlarged cardiomediastinum) in the report.
+
+3. Based on the above analysis, we can conclude that there is no evidence of a widened mediastinal silhouette (including any mentions of cardiomegaly or an enlarged cardiomediastinum) in the report.
+
+Probability of a widened mediastinal silhouette present: 0%</s>","<s> <|user|>
+### QUESTION: Is there widened mediastinal silhouette (including any mentions of cardiomegaly or an enlarged cardiomediastinum) directly mentioned in this report? 
+
+### INSTRUCTIONS: 
+1. Firstly, think whether there are any direct mentions of widened mediastinal silhouette (including any mentions of cardiomegaly or an enlarged cardiomediastinum) in the report. Remember that any uncertain, suggestive, or possible language about widened mediastinal silhouette (including any mentions of cardiomegaly or an enlarged cardiomediastinum) should also be treated as a direct mention.
+2. Then, if there IS direct mention, **you must carefully consider the context of which it is placed**: does it suggest a positive or negative diagnosis? Does it suggest that the condition is resolved or no longer present?
+3. Next, give a brief and concise single top reason both for and against a current POSITIVE DIAGNOSIS of widened mediastinal silhouette (including any mentions of cardiomegaly or an enlarged cardiomediastinum), carefully considering the assumptions below. Give these reasons headings 'TOP REASON FOR' and 'TOP REASON AGAINST'. Carefully consider any context or change in conditions.
+4. After this, give a final concise conclusion including a definitive answer to the question with a probability that widened mediastinal silhouette (including any mentions of cardiomegaly or an enlarged cardiomediastinum) is present, following the assumptions.
+5. Finally, output this sentence in this exact format (so that I can automatically parse your answer for your probability), inserting your probability: ""Probability of a widened mediastinal silhouette present: <INSERT_YOUR_PROBABILITY>%."". Your probability must NOT be exactly 50%.
+
+### ASSUMPTIONS:
+* Assume that any severity of widened mediastinal silhouette (including any mentions of cardiomegaly or an enlarged cardiomediastinum) indicates that it is directly mentioned and your probability MUST be stricly greater than 50%.
+* If there is no direct mention of widened mediastinal silhouette (including any mentions of cardiomegaly or an enlarged cardiomediastinum), your probability MUST be strictly less than 50%.
+* Assume any direct mention of widened mediastinal silhouette (including any mentions of cardiomegaly or an enlarged cardiomediastinum) including uncertain, suggestive or possible language as a POSITIVE DIAGNOSIS, where your probability must be greater than 50%.
+* MOST IMPORTANT: Only direct and explicit mention of widened mediastinal silhouette (including any mentions of cardiomegaly or an enlarged cardiomediastinum) (including uncertainty) warrants a POSITIVE DIAGNOSIS with a probability greater than 50%.
+* If the condition is resolved, then you can assume this to be a NEGATIVE DIAGNOSIS.
+
+### REPORT: 1. Increased mild pulmonary vascular congestion from ___ with small right pleural effusion and right basilar atelectasis. Right basilar opacity may be combination of above, but underlying consolidation due to infection is not excluded. 2. Staple, suture material and scar in the left upper-to-mid lung.
+
+<|assistant|>
+1. Firstly, let's think step-by-step if there's any direct mention of widened mediastinal silhouette (including any mentions of cardiomegaly or an enlarged cardiomediastinum) in the report, carefully considering the above assumptions:
+
+There is no direct mention of widened mediastinal silhouette (including any mentions of cardiomegaly or an enlarged cardiomediastinum) in the report.
+
+2. Since there is no direct mention of widened mediastinal silhouette (including any mentions of cardiomegaly or an enlarged cardiomediastinum), we can assume that it is not present.
+
+TOP REASON FOR: There is no direct mention of widened mediastinal silhouette (including any mentions of cardiomegaly or an enlarged cardiomediastinum) in the report.
+
+TOP REASON AGAINST: There is no direct mention of widened mediastinal silhouette (including any mentions of cardiomegaly or an enlarged cardiomediastinum) in the report.
+
+3. Based on the above analysis, we can conclude that there is no evidence of a widened mediastinal silhouette (including any mentions of cardiomegaly or an enlarged cardiomediastinum) in the report.
+
+Probability of a widened mediastinal silhouette present: 0%</s>"

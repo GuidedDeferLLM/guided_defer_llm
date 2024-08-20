@@ -1,0 +1,61 @@
+report,atelectasis_pred,atelectasis_text_output,atelectasis_whole_output
+Mild pulmonary edema is improved from ___.,0.0,"
+The report does not mention atelectasis (a collapse of an area of the lung) directly.
+
+2. Next, let's give a brief and concise single top reason both for and against a current POSITIVE DIAGNOSIS of atelectasis (a collapse of an area of the lung), carefully considering the assumptions below:
+
+TOP REASON FOR:
+There is no direct mention of atelectasis (a collapse of an area of the lung) in the report.
+
+TOP REASON AGAINST:
+There is no direct mention of atelectasis (a collapse of an area of the lung) in the report.
+
+3. After this, let's give a final concise conclusion including a definitive answer to the question with a probability that atelectasis (a collapse of an area of the lung) is present, following the assumptions:
+
+Based on the report, there is no direct mention of atelectasis (a collapse of an area of the lung). Therefore, we cannot assume a POSITIVE DIAGNOSIS for atelectasis.
+
+4. Finally, let's output the sentence in the required format:
+
+""Probability of atelectasis present: 0%.""
+
+The probability of atelectasis being present is 0%, as there is no direct mention of atelectasis (a collapse of an area of the lung) in the report.</s>","<s> <|user|>
+### QUESTION: Is there atelectasis (a collapse of an area of the lung) directly mentioned in this report? 
+
+### INSTRUCTIONS: 
+1. Firstly, think whether there are any direct mentions of atelectasis (a collapse of an area of the lung) in the report. Remember that any uncertain, suggestive, or possible language about atelectasis (a collapse of an area of the lung) should also be treated as a direct mention.
+2. Then, if there IS direct mention, **you must carefully consider the context of which it is placed**: does it suggest a positive or negative diagnosis? Does it suggest that the condition is resolved or no longer present?
+3. Next, give a brief and concise single top reason both for and against a current POSITIVE DIAGNOSIS of atelectasis (a collapse of an area of the lung), carefully considering the assumptions below. Give these reasons headings 'TOP REASON FOR' and 'TOP REASON AGAINST'. Carefully consider any context or change in conditions.
+4. After this, give a final concise conclusion including a definitive answer to the question with a probability that atelectasis (a collapse of an area of the lung) is present, following the assumptions.
+5. Finally, output this sentence in this exact format (so that I can automatically parse your answer for your probability), inserting your probability: ""Probability of atelectasis present: <INSERT_YOUR_PROBABILITY>%."". Your probability must NOT be exactly 50%.
+
+### ASSUMPTIONS:
+* Assume that any severity of atelectasis (a collapse of an area of the lung) indicates that it is directly mentioned and your probability MUST be stricly greater than 50%.
+* If there is no direct mention of atelectasis (a collapse of an area of the lung), your probability MUST be strictly less than 50%.
+* Assume any direct mention of atelectasis (a collapse of an area of the lung) including uncertain, suggestive or possible language as a POSITIVE DIAGNOSIS, where your probability must be greater than 50%.
+* MOST IMPORTANT: Opacity, consolidation, pneumonia or any other disorders do NOT imply the presence or diagnosis of atelectasis. Only direct and explicit mention of atelectasis (a collapse of an area of the lung) (including uncertainty) warrants a POSITIVE DIAGNOSIS with a probability greater than 50%.
+* If the condition is resolved, then you can assume this to be a NEGATIVE DIAGNOSIS.
+
+### REPORT: Mild pulmonary edema is improved from ___.
+
+<|assistant|>
+1. Firstly, let's think step-by-step if there's any direct mention of atelectasis (a collapse of an area of the lung) in the report, carefully considering the above assumptions:
+
+The report does not mention atelectasis (a collapse of an area of the lung) directly.
+
+2. Next, let's give a brief and concise single top reason both for and against a current POSITIVE DIAGNOSIS of atelectasis (a collapse of an area of the lung), carefully considering the assumptions below:
+
+TOP REASON FOR:
+There is no direct mention of atelectasis (a collapse of an area of the lung) in the report.
+
+TOP REASON AGAINST:
+There is no direct mention of atelectasis (a collapse of an area of the lung) in the report.
+
+3. After this, let's give a final concise conclusion including a definitive answer to the question with a probability that atelectasis (a collapse of an area of the lung) is present, following the assumptions:
+
+Based on the report, there is no direct mention of atelectasis (a collapse of an area of the lung). Therefore, we cannot assume a POSITIVE DIAGNOSIS for atelectasis.
+
+4. Finally, let's output the sentence in the required format:
+
+""Probability of atelectasis present: 0%.""
+
+The probability of atelectasis being present is 0%, as there is no direct mention of atelectasis (a collapse of an area of the lung) in the report.</s>"
